@@ -1,0 +1,23 @@
+{
+  "name": "flareact-template",
+  "version": "1.0.0",
+  "author": "Josh Larson <jplhomer@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "flareact dev",
+    "build": "flareact build",
+    "deploy": "flareact publish"
+  },
+  "dependencies": {
+    "flareact": "^0.8.0-alpha.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.12.2",
+    "@types/react": "^17.0.0"
+  }
+}
